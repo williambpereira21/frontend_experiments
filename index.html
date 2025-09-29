@@ -1,70 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">                            <!--começa aqui html-->
-    <!--metadados do documento HTML-->
-<head>
-    <!--caracteres reconhecidos universalmente-->
-    <meta charset="UTF-8">
-    <!--responsavidade-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--carrega as folhas de estilo principais-->
-    <link rel="stylesheet" href="css/style.css">
-     <!-- Folhas de stilo internas ou anexadas -->
-    <style>
-        body {
-            background-color: rgb(202, 196, 172);
-        }
-    </style>
-    <!--titulo desta página. Aparece na guia do navegador -->
-  <title>Bolos Mania</title>
-</head>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+ <!-- Importa o componente CSS do Bootstrap da CDN (Content Delivery Network) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css">
+     <!-- Importa os ícones do Bootstrap da CDN -->
+   <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css">
+     <title>FrontEXP</title>
+  </head>
+  <body>
+    <!-- div#wrap "abraça" todo o conteúdo -->
+    <div id="wrap">
+      <!-- Cabeçalho da página -->
+      <header>
+        <!-- Nome / Logotipo do site -->
+        <h1>Front<i class="bi bi-flask"></i>EXP</h1>h1>
 
-<!-- Parte visível da página → viewport -->
-<body>
-   <h1 style="color: rgb(190, 19, 125)">Bolos Mania </h1>
-    <h2>Compra e Venda de Bolos Online</h2>
-    <h3>Endereço:Rua viuva dantas 386 </h3>
-    
+        <!-- Menu de navegação principal -->
+        <nav>
+          <a href="index.html"><i class="bi bi-house-fill"></i>Início</a>
+          <a href="contacts.html"><i class="bi bi-chat-left-dots-fill"></i>Contatos</a>
+          <a href="About.html"><i class="bi bi-info-circle-fill"></i>Sobre</a>
+        </nav>
+      </header>
 
-
-<a href="http://127.0.0.1:5500/index.html" title="volte ao ínicio" target="_blank"  >Início</a>
-<a href="contatoshtml"title="entre em contato">contatos</a>
-<a href="sobrehtml" title="sobre a gente">sobre</a>
-<br>
-<p></p>
-
-
-   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione tempora magnam, tenetur dolor accusantium ipsam fuga repellendus tempore quis mollitia debitis dolorem numquam officia, illum voluptatum sint saepe eligendi iste!</p>
-
-   <p title="Isso é um parágrafo"></p>
-
-<img src="img/bolo.jpg" alt="foto de bolo"     width="300px"> 
- 
-<h1 style="display: none;">Meu Site Bunitinhu</h1>
-
-<br> 
-<img src="img/bolo2.jpg" alt="imagem de bolo"   width="700px">
-
-<hr>
-<p><B></B>Sobre Nòs </p>
-<br>
-<p>
-
-Bem-vindo à Bolos Mania, sua loja virtual especializada em bolos caseiros feitos com amor e ingredientes selecionados! Nossa missão é levar até você o sabor e a qualidade de um bolo fresquinho, como se tivesse acabado de sair do forno da sua própria cozinha.
-
-Aqui, você encontra uma variedade de bolos para todas as ocasiões — desde aquele bolo simples para o café da tarde até bolos decorados para festas e celebrações especiais. Trabalhamos com receitas tradicionais e também opções exclusivas, sempre priorizando o frescor, o sabor e a apresentação impecável.
-
-Comprar conosco é fácil, rápido e seguro. Basta escolher o seu bolo preferido, fazer o pedido pelo nosso site ou redes sociais, e receber no conforto da sua casa. Oferecemos atendimento personalizado para ajudar você a escolher o bolo perfeito, além de opções de personalização para tornar seu pedido ainda mais especial.
-
-Na Bolos Mania, cada fatia é feita para adoçar o seu dia. Experimente e descubra o prazer de saborear um bolo feito com carinho, feito para você!</p>
-
-<p>&copy;2025 William Barbosa Pereira</p>
-<script src="js/script.js"></script>
-<script>
-        console.log('JavaScript dentro da página.')
-    </script>
-
-
-
-
-</body>
+      <!-- Conteúdo principal da página -->
+      <main>
+        <h2>Título desta Página</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+          architecto explicabo esse eum aspernatur eaque minima fugiat
+          excepturi, voluptatibus, quam atque tempore ipsa quis? Mollitia nam
+          rerum exercitationem. Ex, molestiae?
+        </p>
+      </main>
+      <!-- Rodapé da página -->
+      <footer>&COPY;2025 Joca da Silva</footer>
+    </div>
+   <!-- Importa o componente JavaScript do Bootstrap da CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
